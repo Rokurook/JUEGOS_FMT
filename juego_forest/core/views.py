@@ -18,3 +18,6 @@ def inicio_sesion(request):
 
 def mi_cuenta(request):
     return render(request, 'core/micuentatf.html')
+
+def Flora(request):
+    return render(request, 'core/Flora.html')
