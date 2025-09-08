@@ -21,3 +21,6 @@ def mi_cuenta(request):
 
 def Flora(request):
     return render(request, 'core/Flora.html')
+
+def historia(request):
+    return render(request, 'core/historia.html')
