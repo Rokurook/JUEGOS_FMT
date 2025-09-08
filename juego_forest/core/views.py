@@ -24,3 +24,4 @@ def Flora(request):
 
 def historia(request):
     return render(request, 'core/historia.html')
+
