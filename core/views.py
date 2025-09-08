@@ -25,3 +25,14 @@ def Flora(request):
 def historia(request):
     return render(request, 'core/historia.html')
 
+def armas(request):
+    return render(request, 'core/Armas.html')
+
+def construcciones(request):
+    return render(request, 'core/Construcciones.html')
+
+def consumibles(request):
+    return render(request, 'core/Consumibles.html')
+
+def enemigos(request):
+    return render(request, 'core/Enemigos.html')
