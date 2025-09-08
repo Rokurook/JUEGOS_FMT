@@ -17,9 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from core.views import menuprincipal_wiki_estatico, animales
+from core.views import menuprincipal_wiki_estatico, animales, foro, registrarse, inicio_sesion, mi_cuenta
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path("", menuprincipal_wiki_estatico, name="menuprincipal_wiki_estatico"),
     path("Animales/", animales, name="animales"),
+    path("forowiki/", foro, name="foro"),
+    path("registrase_wiki/", registrarse, name="registrarse"),
+    path("inicio_sesion_wiki/", inicio_sesion, name="inicio_sesion"),
+    path("micuentatf/", mi_cuenta, name="mi_cuenta"),
 ]   
