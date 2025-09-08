@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from core.views import menuprincipal_wiki_estatico
-
+from core.views import menuprincipal_wiki_estatico, animales
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path("", menuprincipal_wiki_estatico, name="menuprincipal_wiki_estatico"),
-]
+    path("Animales/", animales, name="animales"),
+]   
