@@ -36,3 +36,6 @@ def consumibles(request):
 
 def enemigos(request):
     return render(request, 'core/Enemigos.html')
+
+def lugares(request):
+    return render(request, 'core/Lugarestf.html')

@@ -91,7 +91,7 @@
                 </center>
               </div>
               <div class="pelicula">
-                <a href="Lugarestf.html"><img src="img_wiki/mapaforest1.png" alt=""></a>
+                <a href="{% url 'lugares' %}"><img src="{% static 'core/assets/img_wiki/mapaforest1.png' %}" alt=""></a>
                 <center>
                   <p style="color: white;">Mapa</p>
                 </center>
@@ -154,7 +154,7 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
   </main>
 
