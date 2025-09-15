@@ -39,3 +39,6 @@ def enemigos(request):
 
 def lugares(request):
     return render(request, 'core/Lugarestf.html')
+
+def recuperarcontra(request):
+    return render(request, 'core/recuperarcontra.html')
