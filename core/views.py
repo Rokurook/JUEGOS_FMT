@@ -42,3 +42,6 @@ def lugares(request):
 
 def recuperarcontra(request):
     return render(request, 'core/recuperarcontra.html')
+
+def logros(request):
+    return render(request, 'core/Logros.html')
